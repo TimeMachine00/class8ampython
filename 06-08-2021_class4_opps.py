@@ -29,32 +29,74 @@
 
 
 
-class student:
-    def __init__(self,maths,commerce):
-        self.maths=maths
-        self.commerce=commerce
+# class student:
+#     def __init__(self,maths,commerce):
+#         self.maths=maths
+#         self.commerce=commerce
 
 
     # def result(self):
     #
     #     print(self.maths+self.commerce)
 
-    def __add__(self, other):
-        a=self.maths+other.maths
-        b=self.commerce+other.commerce
-        c=student(a,b)
-        return c
-    def __gt__(self, other):
-        if self.maths>other.maths:
-            return True
-        else:
-            return False
+#     def __add__(self, other):
+#         a=self.maths+other.maths
+#         b=self.commerce+other.commerce
+#         c=student(a,b)
+#         return c
+#     def __gt__(self, other):
+#         if self.maths>other.maths:
+#             return True
+#         else:
+#             return False
+#
+#
+# s1=student(20,32)
+# s2=student(12,15)
+#
+# s3=s1+s2
+# print(s3.maths,s3.commerce)
+# s4=s1<s2
+# print(s4)
 
 
-s1=student(20,32)
-s2=student(12,15)
 
-s3=s1+s2
-print(s3.maths,s3.commerce)
-s4=s1<s2
-print(s4)
+# class addi():
+#
+#
+#
+#     def doAdd(self,a=None,b=None,c=None):
+#         if a!=None and b!=None and c!=None:
+#             z=a+b+c
+#
+#         elif a!=None and b!=None:
+#
+#             z=a+b
+#
+#         else:
+#           z=a
+#         return z
+#
+
+# class addi:
+#     def sumation(self,a,b):
+#         c=a+b
+#         print(c)
+#
+#
+# class hai(addi):
+#
+#     def sumation(self,a,b):
+#         c=a+b
+#         print(c)
+#
+# z=hai()
+# z.sumation(2,3)
+
+
+
+
+
+
+
+
